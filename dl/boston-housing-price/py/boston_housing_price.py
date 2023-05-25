@@ -10,6 +10,7 @@ Original file is located at
 import numpy as np
 import pandas as pd
 import tensorflow as tf
+from sklearn.model_selection import train_test_split
 
 # Load the Boston housing dataset
 boston_data = pd.read_csv('/content/Boston.csv')
